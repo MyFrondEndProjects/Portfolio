@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28282B;
+}
+
+.app {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-color: bisque;
+    left: 3%;
+    top: 2.4%;
+    border-radius: 0.5em;
+
+}
+
+.rightbar {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 0%;
+    text-align: center;
+    padding-top: 14em;
+    background-color: lightgreen;
+    border-radius: 0.5em;
+    opacity: 0.9;
+    color: darkslategray;
+    font-size: 1.1em;
+}
+
+.rightbar ul {
+    justify-content: column;
+    margin-top: 2em;
+}
+
+.rightbar ul li {
+    margin-top: 2em;
+    list-style: none;
+    padding: 0.2em;
+    width: 14.5em;
+    margin-left: 2.4em;
+    border-radius: 0.2em;
+    font-size: 1.1em;
+    border: none;
+
+}
+
+.rightbar ul li:hover {
+    margin-top: 2em;
+    list-style: none;
+    padding: 0.2em;
+    width: 14.5em;
+    margin-left: 2.4em;
+    border-radius: 0.2em;
+    font-size: 1.1em;
+    border: none;
+
+}
+
+.rightbar ul li a {
+    text-decoration: none;
+    color: #353935;
+    margin-left: 0.5em;
+    font-size: 1.5em;
+
+
+
+}
+
+.rightbar ul li a:hover {
+    text-decoration: none;
+    border: none;
+    border-bottom: 5px solid #353935;
+
+}
+
+.profile {
+    position: absolute;
+    width: 90%;
+    height: 29%;
+    right: 5%;
+    top: 1%;
+    background-color: lightgreen;
+    border-radius: 0.2em;
+
+}
+
+.profile span {
+    font-size: 1.2em;
+}
+
+.profile img {
+    width: 12em;
+    height: 8em;
+    background-color: #28282B;
+    margin-left: 0.6em;
+    border-radius: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 10px solid bisque;
+}
+
+
+
+.rightbar p {
+    position: absolute;
+    bottom: 3%;
+    text-align: center;
+    left: 20%;
+    right: 19%;
+}
+
+.liimg {
+    width: 1.5em;
+    height: 1em;
+    margin-right: 1em;
+
+}
+
+.content {
+    position: absolute;
+    left: 0%;
+    width: 80%;
+    height: 100%;
+    background-color: bisque;
+    border-radius: 0.5em;
+}
+
+.home {
+    text-align: center;
+    background-color: lightgreen;
+    opacity: 0.9;
+    width: 70%;
+    margin-left: 14em;
+    margin-top: 5em;
+    height: 80%;
+    border: 10px solid #353935;
+    border-radius: 0.5em;
+}
+
+.home img {
+    width: 19em;
+    height: 19em;
+    border-radius: 100%;
+    margin-top: 6em;
+    border: 30px solid bisque;
+
+}
+
+.home h1 {
+    margin-top: 0.9em;
+    color: #353935;
+}
+
+.home p {
+    font-size: 2em;
+    background-color: lightgreen;
+    width: 30em;
+    margin-left: 0.7em;
+    margin-top: 2em;
+    border-radius: 0.2em;
+    border: 10px solid bisque;
+    color: #353935;
+    ;
+}
